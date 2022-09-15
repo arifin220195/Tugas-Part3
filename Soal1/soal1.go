@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func ganjilOrGenap(n int) int {
+func ganjilOrGenap(n int) string {
 	// write your code
 
 }
