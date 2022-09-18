@@ -4,7 +4,17 @@ import "fmt"
 
 func nilaiUjian(n int) string {
 	// write your code
+	switch {
+	case n >= 85:
+		return "A"
+	case n >= 65:
+		return "B"
+	case n >= 35:
+		return "C"
+	default:
+		return "Belajar lagi"
 
+	}
 }
 
 func main() {
