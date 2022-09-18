@@ -4,6 +4,13 @@ import "fmt"
 
 func ganjilOrGenap(n int) string {
 	// write your code
+	if n%2 == 0 {
+		return fmt.Sprintf("%d adalah bilangan genap", n)
+
+	} else {
+		return fmt.Sprintf("%d adalah bilangan ganjil", n)
+
+	}
 
 }
 
